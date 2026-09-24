@@ -12,7 +12,7 @@
             Blinker(int pin, unsigned long interval, unsigned long startvertraging = 0);          // constructor
             ~Blinker() {}        // destructor
         
-            int handle();
+            int handle(void);
     
     }; 
 #endif
